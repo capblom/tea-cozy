@@ -1,0 +1,15 @@
+html {
+font-family: Helvetica, sans-serif;
+font-size: 22px;
+color: Seashell;
+background-color: Black;
+opacity: 0.9;
+text-align: center;
+}
+
+.heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
