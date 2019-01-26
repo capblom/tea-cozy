@@ -9,7 +9,21 @@ opacity: 0.9;
 text-align: center;
 }
 
+/* Link styling to spec color */
+
+a:link {
+  color: Seashell;
+}
+
 a:visited {
+  color: Seashell;
+}
+
+a:hover {
+  color: Seashell;
+}
+
+a:active {
   color: Seashell;
 }
 
