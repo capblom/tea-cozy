@@ -146,7 +146,7 @@ a:active {
   align-self: center;
 }
 
-/* Address container */
+/* Address section */
 
 .address {
   display: flex;
@@ -154,5 +154,13 @@ a:active {
   justify-content: center;
   align-items: center;
   height: 200px;
-  margin: 20px auto auto auto;
+  padding-top: 20px;
+}
+
+/* footer */
+
+.footer {
+  display: flex;
+  margin-top: 30px;
+  margin-left: 20px;
 }
