@@ -87,7 +87,7 @@ a:active {
 
 .featured-container {
   display: flex;
-  flex-flow: wrap row;
+  flex-wrap: wrap;
   justify-content: center;
   width: 1000px;
   margin: 70px auto auto auto;
@@ -111,3 +111,37 @@ a:active {
 }
 
 /* Container for locations section */
+
+.locations-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* align-items: center; */
+  background-image: url(./../images/locations.jpg);
+  background-color: BurlyWood;
+  width: 1200px;
+  height: 500px;
+  margin: 70px auto auto auto;
+}
+
+/* Boxes for locations section */
+
+/* Negative Margins used for positioning 15px distance between h2 and locations-boxes */
+
+.locations-heading {
+  width: 1200px;
+  align-self: flex-end;
+  margin: -55px;
+}
+
+.locations-heading h2 {
+  margin: 0;
+}
+
+.locations-boxes {
+  background-color: Black;
+  opacity: 1;
+  width: 300px;
+  margin: 15px 20px 50px 20px;
+  align-self: center;
+}
