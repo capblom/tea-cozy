@@ -32,6 +32,7 @@ a:active {
 .heading {
   position: fixed;
   top: 0;
+  background-color: Black;
   width: 100%;
   height: 69px;
   display: flex;
@@ -60,4 +61,24 @@ a:active {
 .navbar span {
   padding: 20px;
   text-decoration: underline;
+}
+
+/* Container for mission section */
+
+.mission-container {
+  background-image: url(./../images/background.jpg);
+  background-color: BurlyWood;
+  width: 1200px;
+  height: 700px;
+  margin: 70px auto auto auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Mission statemtn box */
+
+.mission-statement {
+  background-color: Black;
+  width: 1200px;
 }
