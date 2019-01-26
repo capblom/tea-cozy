@@ -82,3 +82,30 @@ a:active {
   background-color: Black;
   width: 1200px;
 }
+
+/* Container for featured tea section */
+
+.featured-container {
+  display: flex;
+  flex-flow: wrap row;
+  justify-content: center;
+  width: 1000px;
+  margin: 70px auto auto auto;
+}
+
+/* Featured tea heading box */
+
+.featured-heading {
+  width: 1000px;
+}
+
+/* featured tea boxes */
+
+.tea {
+  width: 300px;
+  padding: 10px;
+}
+
+.tea img {
+  height: 200px;
+}
