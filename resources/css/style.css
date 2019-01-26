@@ -126,7 +126,7 @@ a:active {
 
 /* Boxes for locations section */
 
-/* Negative Margins used for positioning 15px distance between h2 and locations-boxes */
+/* Negative Margins used for positioning 15px distance between h2 and locations-boxes - it works but I don't like it */
 
 .locations-heading {
   width: 1200px;
@@ -144,4 +144,15 @@ a:active {
   width: 300px;
   margin: 15px 20px 50px 20px;
   align-self: center;
+}
+
+/* Address container */
+
+.address {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  margin: 20px auto auto auto;
 }
